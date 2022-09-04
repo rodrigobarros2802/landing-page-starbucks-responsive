@@ -6,3 +6,49 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --preto: #333;
+    --verde: #017143;
+    --salmao: #eb7495;
+    --rosa: #d752b1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    width: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header ul li a {
+    color: var(--preto);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+header ul li a:hover {
+    color: var(--verde);
+    border-bottom: 3px solid #017143;
+}
