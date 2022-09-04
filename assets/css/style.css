@@ -12,6 +12,16 @@
     --verde: #017143;
     --salmao: #eb7495;
     --rosa: #d752b1;
+    --branco: #fff;
+}
+
+section {
+    background: var(--branco);
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
 header {
@@ -19,8 +29,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
-    width: 100%;
-    min-height: 100%;
 }
 
 .logo {
@@ -46,9 +54,11 @@ header ul li a {
     font-weight: 700;
     text-decoration: none;
     font-size: 19px;
+    transition: 0.3s ease-in-out;
 }
 
 header ul li a:hover {
     color: var(--verde);
     border-bottom: 3px solid #017143;
+    transform: translateY(-15px);
 }
