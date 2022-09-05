@@ -168,3 +168,33 @@ header ul li a:hover {
 .thumb li:hover {
     transform: translateY(-20px);
 }
+
+.redes {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: 0;
+    padding-right: 40px;
+}
+
+.redes ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.redes img {
+    transform: scale(0.8);
+}
