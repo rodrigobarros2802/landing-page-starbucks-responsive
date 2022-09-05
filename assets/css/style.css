@@ -17,11 +17,13 @@
 
 section {
     background: var(--branco);
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     min-height: 100vh;
+    position: relative;
+    padding: 100px;
 }
 
 header {
@@ -29,24 +31,24 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-.logo {
-    width: 100px;
+header .logo {
+    max-width: 80px;
+    position: relative;
 }
 
 header ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 header ul li {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
 }
 
 header ul li a {
@@ -54,11 +56,74 @@ header ul li a {
     font-weight: 700;
     text-decoration: none;
     font-size: 19px;
-    transition: 0.3s ease-in-out;
+    margin-left: 50px;
 }
 
 header ul li a:hover {
     color: var(--verde);
     border-bottom: 3px solid #017143;
-    transform: translateY(-15px);
+}
+
+.conteudoBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.conteudoBox .textoBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.conteudoBox .textoBox h2 {
+    font-size: 4em;
+    font-weight: 500;
+    color: var(--preto);
+    width: 600px;
+}
+
+.conteudoBox .textoBox span {
+    color: var(--verde);
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.conteudoBox .textoBox p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.conteudoBox .textoBox a {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--verde);
+    color: var(--branco);
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.conteudoBox .textoBox a:hover {
+    background: var(--preto);
+}
+
+.conteudoBox .imgBox {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 600px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.conteudoBox .imgBox img {
+    display: flex;
+    max-width: 340px;
+    position: relative;
 }
