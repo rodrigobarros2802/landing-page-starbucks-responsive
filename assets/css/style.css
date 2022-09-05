@@ -138,3 +138,33 @@ header ul li a:hover {
     top: 0;
     clip-path: circle(550px at right 800px);
 }
+
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.thumb ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumb li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.thumb li:hover {
+    transform: translateY(-20px);
+}
