@@ -1,4 +1,5 @@
 # :triangular_ruler: Landing-Page Starbucks
+* Projeto em que desenvolvo uma Landing-Page de uma marca de Café famosa
 
 # :memo: Índice
 * [:chart_with_upwards_trend: Proposta](https://github.com/rodrigobarros2802/landing-page-starbucks/edit/master/README.md#chart_with_upwards_trend-proposta)
