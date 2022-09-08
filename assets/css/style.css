@@ -198,3 +198,31 @@ header ul li a:hover {
 .redes img {
     transform: scale(0.9);
 }
+
+@media (max-width: 1090px) {
+    header {
+        padding: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    header ul li {
+        display: none;
+    }
+
+    .conteudoBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
+        padding: 20px;
+    }
+
+    .textoBox {
+        width: 100%;
+    }
+}
