@@ -170,33 +170,27 @@ header ul li a:hover {
 }
 
 .redes {
-    display: flex;
     position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%
+    );
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    right: 0;
-    padding-right: 40px;
-}
-
-.redes ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .redes li {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
-    filter: invert(1);
-    cursor: pointer;
 }
 
 .redes img {
-    transform: scale(0.9);
+    transform: scale(0.6);
+    display: inline-block;
+    margin: 5px 0;
+    filter: invert(1);
+    cursor: pointer;
 }
 
 @media (max-width: 1090px) {
@@ -204,33 +198,53 @@ header ul li a:hover {
         padding: 20px;
     }
 
-    section {
-        padding: 20px;
+    header .logo {
+        max-width: 60px;
     }
 
-    header ul li {
+    header ul {
         display: none;
     }
 
-    .conteudoBox {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 80px;
-        padding: 20px;
+    section {
+        padding: 20px 20px 120px;
     }
 
-    .textoBox {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+    .conteudoBox {
         flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .conteudoBox .textoBox {
+        max-width: 100%;
+    }
+
+    .conteudoBox .textoBox h2 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
     }
     
-    .circle {
-        clip-path: circle(480px at center bottom);
+    .conteudoBox .imgBox {
+        max-width: 100%;
+        justify-content: center;
     }
+
+    .conteudoBox .imgBox img {
+        max-width: 250px;
+    }
+
+    .thumb li img {
+        max-width: 40px;
+    }
+
+    .redes {
+        background: var(--verde);
+        right: 0;
+        width: 50px;
+    }
+
+    .circle {
+        clip-path: circle(400px at center bottom);
+    }
+
 }
