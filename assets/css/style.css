@@ -218,6 +218,13 @@ header ul li a:hover {
         filter: invert(1);
     }
 
+    .toggle.active {
+        background: url('/assets/img/close.png');
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     section {
         padding: 20px 20px 120px;
     }
