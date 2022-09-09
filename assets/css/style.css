@@ -193,7 +193,7 @@ header ul li a:hover {
     cursor: pointer;
 }
 
-@media (max-width: 1090px) {
+@media screen and (max-width: 1090px) {
     header {
         padding: 20px;
     }
@@ -241,10 +241,11 @@ header ul li a:hover {
         background: var(--verde);
         right: 0;
         width: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 
     .circle {
         clip-path: circle(400px at center bottom);
     }
-
 }
