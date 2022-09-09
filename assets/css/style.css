@@ -206,6 +206,10 @@ header ul li a:hover {
         display: none;
     }
 
+    .toggle {
+        
+    }
+
     section {
         padding: 20px 20px 120px;
     }
