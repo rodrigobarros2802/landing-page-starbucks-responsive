@@ -216,6 +216,7 @@ header ul li a:hover {
         background-position: center;
         background-repeat: no-repeat;
         filter: invert(1);
+        z-index: 11;
     }
 
     .toggle.active {
@@ -223,6 +224,27 @@ header ul li a:hover {
         background-size: 25px;
         background-position: center;
         background-repeat: no-repeat;
+        position: fixed;
+        right: 20px;
+    }
+
+    header ul.navigation.active {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: var(--branco);
+        z-index: 10;
+    }
+
+    header ul li a {
+        font-size: 1.5em;
+        margin: 5px 0;
     }
 
     section {
