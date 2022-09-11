@@ -40,7 +40,7 @@
 ![Imagem 3](assets/img/print3.png)
 
 # :link: Links
-* **Link GitHub Pages** - https://rodrigobarros2802.github.io/landing-page-starbucks/
+* **Link GitHub Pages** - https://rodrigobarros2802.github.io/landing-page-starbucks-responsive/
 
 # :technologist: Autor
 * **Repositório GitHub** - https://github.com/rodrigobarros2802
