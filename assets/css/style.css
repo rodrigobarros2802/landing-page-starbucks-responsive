@@ -24,6 +24,7 @@ section {
     min-height: 100vh;
     position: relative;
     padding: 100px;
+    overflow-x: hidden;
 }
 
 header {
